@@ -8,10 +8,15 @@ pip install -r requirements
 ```
 
 ## Calibration
+
+Calibration scripts uses images from
+**./calibration_images/** folder in jpg format, but you can change it by changing **images_path** variable in the **calibration.py** file.
+
+**Run the calibration:**
 ```
 python3 calibration.py
 ```
-You'll get the result in form of 
+**You'll get the result in form of**
 ```
 Camera Intrinsic Matrix (K):
  [[ fx           0.           cx        ]
@@ -39,11 +44,11 @@ cy = 272.7434297
 ```
 **And put here**
 
-Run the main.py
+**Run the main.py:**
 ```
 python3 main.py
 ```
-It will print the output like
+**It will print the output like**
 ```
 [[ 0.93304838 -0.14627087 -0.3286724 ]
  [ 0.09306069  0.98064944 -0.17223934]
@@ -53,4 +58,4 @@ It will print the output like
  [-0.0546133 ]]
  ```
 
- Which is Camera Transformation matrix (relative to tag) and Camera Position (relative to tag)
+**Which is Camera Transformation matrix (relative to tag) and Camera Position (relative to tag)**

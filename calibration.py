@@ -5,6 +5,7 @@ import glob
 collumns = 11
 rows = 8
 square_size = 0.01  # 1cm
+images_path = "calibration_images/*.jpg"
 
 # Checkerboard size (number of inner corners)
 CHECKERBOARD = (collumns-1, rows-1)  # 9x6 inner corners
@@ -19,7 +20,7 @@ objpoints = []  # 3D world points in meters
 imgpoints = []  # 2D image points in pixels
 
 # Load all checkerboard images
-images = glob.glob("calibration_images/*.jpg")  # Change this to your image folder
+images = glob.glob(images_path)  # Change this to your image folder
 
 for fname in images:
     img = cv2.imread(fname)
