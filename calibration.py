@@ -7,7 +7,7 @@ rows = 8
 square_size = 0.01  # 1cm
 
 # Checkerboard size (number of inner corners)
-CHECKERBOARD = (10, 7)  # 9x6 inner corners
+CHECKERBOARD = (collumns-1, rows-1)  # 9x6 inner corners
 
 # Prepare object points in meters
 objp = np.zeros((CHECKERBOARD[0] * CHECKERBOARD[1], 3), np.float32)

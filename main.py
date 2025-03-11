@@ -4,7 +4,7 @@ import numpy as np
 
 #image = cv2.imread("photo.jpg")
 
-s = 0.01  #apriltag bit length
+s = 0.1  #apriltag size
 #CHANGE THESE VALUES TO CA;IBRATION MATRIX YOU GOT FOR YOUR CAM
 fx = 752.06947848
 fy = 753.05010857
