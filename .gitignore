@@ -2,4 +2,4 @@
 april-venv/
 
 *.jpg
-*.nmp
+*.npy
