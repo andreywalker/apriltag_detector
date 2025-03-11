@@ -1,6 +1,8 @@
+# Ignore all .npy files
+*.npy
 
-april-venv/
-
+# Ignore all .jpg files
 *.jpg
 
-*.npy
+# Ignore the april-venv folder
+april-venv/
